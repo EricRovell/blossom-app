@@ -2,23 +2,29 @@ import sveltePreprocess from "svelte-preprocess";
 import { mdsvex } from "mdsvex";
 import adapter from "@sveltejs/adapter-static";
 import path from "path";
-import cssModules from "svelte-preprocess-cssmodules";
 
 const aliasList = [
-	{ name: "@ui", path: "./src/lib/ui" },
+	{ name: "@lib", path: "./src/lib" },
 	{ name: "@components", path: "./src/lib/components" },
+	{ name: "@views", path: "./src/lib/views" },
 	{ name: "@styles", path: "./src/styles" },
 	{ name: "@types", path: "./src/types" },
+	{ name: "@util", path: "./src/lib/util" }
 ];
 
 /** @type {import('@sveltejs/kit').Config} */
-const config = {
+export default {
 	preprocess: [
-		mdsvex(),
-		cssModules(),
-		sveltePreprocess(),
+		sveltePreprocess({
+			defaults: {
+				script: "ts"
+			}
+		}),
+		mdsvex({
+			extensions: [ ".svelte", ".svx", ".md" ]
+		})
 	],
-	extensions: [ ".svelte", ".svx" ],
+	extensions: [ ".svelte", ".svx", ".md" ],
 	kit: {
 		adapter: adapter(),
 		target: "body",
@@ -31,5 +37,3 @@ const config = {
 		}
 	}
 };
-
-export default config;

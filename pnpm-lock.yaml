@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@ericrovell/blossom': ^1.3.0
+  '@ericrovell/blossom': ^1.4.3
   '@sveltejs/adapter-static': ^1.0.0-next.13
   '@sveltejs/kit': ^1.0.0-next.138
   '@types/jest': ^26.0.24
@@ -23,7 +23,7 @@ specifiers:
   vite: ^2.4.4
 
 dependencies:
-  '@ericrovell/blossom': 1.3.0
+  '@ericrovell/blossom': 1.4.3
 
 devDependencies:
   '@sveltejs/adapter-static': 1.0.0-next.13
@@ -395,9 +395,9 @@ packages:
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
     dev: true
 
-  /@ericrovell/blossom/1.3.0:
-    resolution: {integrity: sha512-GK3RdvFbUU7+M1OX845ww6oCQOhO3/IbNCOaLPufF/4jyM/jIW0yZaqvomPo88E2YQumS/AoQSzSHCaWRq20cg==}
-    engines: {node: '>=14.0'}
+  /@ericrovell/blossom/1.4.3:
+    resolution: {integrity: sha512-GI1DqIuDnann9mznIXy62Q2W5d3dEBJzBnuV21r4lD2jXW62hdx2AkzpWftmgfV90PD+ql4wB5AdZvMOql+1nw==}
+    engines: {node: '>=12.0'}
     dev: false
 
   /@eslint/eslintrc/0.4.3:
