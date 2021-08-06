@@ -16,7 +16,13 @@
 		"url": "git+https://github.com/ericrovell/blossom-web.git"
 	},
 	"keywords": [
-		"colors"
+		"transformrations",
+		"convert",
+		"colors",
+		"rgb",
+		"hex",
+		"hsl",
+		"color analysis"
 	],
 	"author": "Eric Rovell",
 	"types": "index.d.ts",
@@ -25,7 +31,7 @@
 		"test": "tests"
 	},
 	"engines": {
-		"node": ">=14.0"
+		"node": ">=12.0"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-static": "^1.0.0-next.13",
@@ -50,6 +56,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@ericrovell/blossom": "^1.3.0"
+		"@ericrovell/blossom": "^1.4.3"
 	}
 }
