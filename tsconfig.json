@@ -17,6 +17,7 @@
 		"paths": {
 			"$app/*": [ ".svelte/dev/runtime/app/*", ".svelte/build/runtime/app/*" ],
 			"@lib/*": [ "src/lib/*" ],
+			"@core/*": [ "src/core/*" ],
       "@components": [ "src/lib/components/index.ts" ],
 			"@components/*": [ "src/lib/components/*" ],
 			"@views": [ "src/lib/views/index.ts" ],

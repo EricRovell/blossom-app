@@ -5,6 +5,7 @@ import path from "path";
 
 const aliasList = [
 	{ name: "@lib", path: "./src/lib" },
+	{ name: "@core", path: "./src/core" },
 	{ name: "@components", path: "./src/lib/components" },
 	{ name: "@views", path: "./src/lib/views" },
 	{ name: "@styles", path: "./src/styles" },

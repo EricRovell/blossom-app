@@ -2,7 +2,7 @@
 	import { fade } from "svelte/transition";
 	import { SearchField, PaperGrid } from "@components";
 	import { getColorProperties, getColorTransformations } from "@util";
-	import type { Blossom } from "@ericrovell/blossom";
+	import type { Blossom } from "@core/blossom";
 
 	export let input = "";
 	export let color: Blossom;

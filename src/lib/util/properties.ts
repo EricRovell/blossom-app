@@ -1,4 +1,4 @@
-import type { Blossom } from "@ericrovell/blossom";
+import type { Blossom } from "@core/blossom";
 import type { Properties } from "@types";
 
 export function getColorProperties(color: Blossom): Properties {
@@ -21,9 +21,8 @@ export function getColorProperties(color: Blossom): Properties {
 		},
 		{
 			name: "Luminance",
-			// @ts-ignore
 			// eslint-disable-next-line @typescript-eslint/unbound-method
-			value: color?.luminance
+			value: color.luminance
 		}
 	];
 }

@@ -1,14 +1,9 @@
 <script lang="ts">
+  import { blossom, random } from "@core/blossom";
+  import type { Blossom } from "@core/blossom";
   import { Playground } from "@views";
-
-  import { blossom, random, extend } from "@ericrovell/blossom";
-  import { pluginA11Y } from "@ericrovell/blossom/plugins/a11y";
-  import type { Blossom } from "@ericrovell/blossom";
-
   import { Icon } from "@components";
   import { logo } from "@components/icons/logo";
-
-  extend([ pluginA11Y ]);
 
   export let input = "";
 

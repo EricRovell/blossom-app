@@ -1,4 +1,4 @@
-import type { Blossom } from "@ericrovell/blossom";
+import type { Blossom } from "@core/blossom";
 import type { Transformations } from "@types";
 
 export function getColorTransformations(color: Blossom): Transformations {
