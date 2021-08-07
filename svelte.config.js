@@ -36,6 +36,9 @@ export default {
 				)))
 			}
 		},
-		path: "/blossom-web"
+		paths: {
+			assets: "/blossom-web",
+			base: "/blossom-web"
+		}
 	}
 };
