@@ -27,6 +27,7 @@ export default {
 	],
 	extensions: [ ".svelte", ".svx", ".md" ],
 	kit: {
+		appDir: "app",
 		adapter: adapter(),
 		paths: {
 			base: "/blossom-web",
