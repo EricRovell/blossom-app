@@ -50,7 +50,7 @@
 <style>
 	.results {
     display: grid;
-    grid-template: auto / 1fr 1fr;
+    grid-template: auto / 1fr 1.5fr;
     gap: 0.75em;
     width: 100%;
   }
