@@ -1,6 +1,8 @@
 <script lang="ts">
+	import { base } from "$app/paths";
+
 	import { Navigation, Footer, Icon } from "@components";
-  import { iconNpm, iconGithub } from "@components/icons/default";
+	import { iconNpm, iconGithub } from "@components/icons/default";
 
 	import "@styles/main.css";
 	import "@styles/normalize.css";
@@ -12,13 +14,13 @@
 <div id="app">
 	<header>
     <Navigation.Container>
-      <Navigation.Item href="/docs">
+      <Navigation.Item href="{base}/docs">
         Docs
       </Navigation.Item>
-      <Navigation.Item href="/">
+      <Navigation.Item href="{base}/">
         Playground
       </Navigation.Item>
-      <Navigation.Item href="/about">
+      <Navigation.Item href="{base}/about">
         About
       </Navigation.Item>
     </Navigation.Container>

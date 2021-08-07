@@ -2,8 +2,8 @@ lockfileVersion: 5.3
 
 specifiers:
   '@ericrovell/blossom': ^1.5.0
-  '@sveltejs/adapter-static': ^1.0.0-next.13
-  '@sveltejs/kit': ^1.0.0-next.138
+  '@sveltejs/adapter-static': ^1.0.0-next.16
+  '@sveltejs/kit': ^1.0.0-next.142
   '@types/jest': ^26.0.24
   '@typescript-eslint/eslint-plugin': ^4.28.5
   '@typescript-eslint/parser': ^4.28.5
@@ -26,8 +26,8 @@ dependencies:
   '@ericrovell/blossom': 1.5.0
 
 devDependencies:
-  '@sveltejs/adapter-static': 1.0.0-next.13
-  '@sveltejs/kit': 1.0.0-next.139_svelte@3.41.0
+  '@sveltejs/adapter-static': 1.0.0-next.16
+  '@sveltejs/kit': 1.0.0-next.142_svelte@3.41.0
   '@types/jest': 26.0.24
   '@typescript-eslint/eslint-plugin': 4.28.5_514553717ff968e20f6d1c6e521f8616
   '@typescript-eslint/parser': 4.28.5_eslint@7.31.0+typescript@4.3.5
@@ -691,12 +691,12 @@ packages:
       '@sinonjs/commons': 1.8.3
     dev: true
 
-  /@sveltejs/adapter-static/1.0.0-next.13:
-    resolution: {integrity: sha512-zaXJlWK9JfrjrE6nG5etB8kf4DSkbE3H8Ql6gmCk3WjdvpY85a60TMYBU9OK2iunkqpHnPYiMUGEnOGYmWlLYA==}
+  /@sveltejs/adapter-static/1.0.0-next.16:
+    resolution: {integrity: sha512-xGFcg+GHF0BL1fyWx2vCzlYj4S4R+Od9cF00soo1TVp/scGOi1G9grSYYW4x5H+iDn1sscoJ65OGBGWIcOgrXg==}
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.139_svelte@3.41.0:
-    resolution: {integrity: sha512-V/OG9FIuq8Fzh08x0VZx1ZX5MjCM8lD/vpk/cM/RyGJSky+KKYgch7mWSY6XP28vUsl1HUg+HMuho/rKqmwe9A==}
+  /@sveltejs/kit/1.0.0-next.142_svelte@3.41.0:
+    resolution: {integrity: sha512-MxoQz/kxlYOXVHETlxh8+wIvfZ4N2EScDqyuaWwFHqWg6fj6FHADJfZ7JCniqvAe8ME2jA9Om/gVR8e1oY04+w==}
     engines: {node: ^12.20 || >=14.13}
     hasBin: true
     peerDependencies:

@@ -37,8 +37,8 @@ export default {
 			}
 		},
 		paths: {
-			assets: "/blossom-web",
-			base: "/blossom-web"
+			base: "/blossom-web",
+			assets: "/blossom-web"
 		}
 	}
 };
