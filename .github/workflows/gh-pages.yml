@@ -4,7 +4,7 @@ on:
     branches:
       - main
 jobs:
-  build-and-deploy:
+  build:
     runs-on: windows-latest
     steps:
       - name: Checkout
@@ -18,7 +18,6 @@ jobs:
         with:
           name: blossom
           path: build
-
   deploy:
     needs: [build]
     runs-on: ubuntu-latest
