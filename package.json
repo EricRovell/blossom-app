@@ -56,6 +56,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@ericrovell/blossom": "^1.4.3"
+		"@ericrovell/blossom": "^1.5.0"
 	}
 }

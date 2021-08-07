@@ -1,0 +1,8 @@
+- [ ]: Copy buttons for transformations;
+- [ ]: Flower petals changing colors;
+- [ ]: Documentation page;
+- [ ]: Invalid color message illustration;
+- [ ]: Empty search field message illustration;
+- [ ]: Theme toggle;
+- [ ]: Support locale switch;
+- [ ]: Better color picker;
