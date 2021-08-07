@@ -35,6 +35,7 @@ export default {
 					[ alias.name, path.resolve(alias.path) ]
 				)))
 			}
-		}
+		},
+		path: "/blossom-web"
 	}
 };
