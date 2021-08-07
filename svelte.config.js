@@ -28,17 +28,17 @@ export default {
 	extensions: [ ".svelte", ".svx", ".md" ],
 	kit: {
 		adapter: adapter(),
+		paths: {
+			base: "/blossom-web",
+			assets: "/blossom-web"
+		},
 		target: "body",
 		vite: {
 			resolve: {
 				alias: Object.fromEntries(aliasList.map(alias => (
 					[ alias.name, path.resolve(alias.path) ]
 				)))
-			}
+			},
 		},
-		paths: {
-			base: "/blossom-web",
-			assets: "/blossom-web"
-		}
 	}
 };
