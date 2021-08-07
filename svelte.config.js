@@ -30,8 +30,7 @@ export default {
 		appDir: "app",
 		adapter: adapter(),
 		paths: {
-			base: "/blossom-web",
-			assets: "/blossom-web"
+			base: process.env.NODE_ENV === "production" ? "/blossom-web" : "",
 		},
 		target: "body",
 		vite: {
