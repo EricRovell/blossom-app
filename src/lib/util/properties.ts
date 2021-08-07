@@ -21,7 +21,6 @@ export function getColorProperties(color: Blossom): Properties {
 		},
 		{
 			name: "Luminance",
-			// eslint-disable-next-line @typescript-eslint/unbound-method
 			value: color.luminance
 		}
 	];

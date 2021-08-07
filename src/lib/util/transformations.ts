@@ -14,6 +14,14 @@ export function getColorTransformations(color: Blossom): Transformations {
 		{
 			model: "hsl",
 			value: color.toStringHSL
+		},
+		{
+			model: "hsv",
+			value: color.toStringHSV
+		},
+		{
+			model: "cmyk",
+			value: color.toStringCMYK
 		}
 	];
 }
