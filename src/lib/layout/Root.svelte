@@ -31,8 +31,12 @@
       © {new Date().getFullYear()} blossom/web, v0.1.0 | MIT Licence.
     </section>
     <section class="social">
-      <Icon path={iconNpm} size="1.5em" color="#cb3837" />
-      <Icon path={iconGithub} size="1.5em" />
+      <a href="https://github.com/EricRovell/blossom">
+        <Icon path={iconGithub} size="1.5em" />
+      </a>
+      <a href="https://www.npmjs.com/package/@ericrovell/blossom">
+        <Icon path={iconNpm} size="1.5em" />
+      </a>
     </section>
 	</Footer>
 </div>
@@ -79,6 +83,14 @@
     display: grid;
     grid-template: 1fr / 1fr 1fr;
     gap: 0.5em;
+  }
+
+  .social > a {
+    transition: color 0.25s linear;
+  }
+
+  .social > a:hover {
+    color: var(--color-primary);
   }
 
   /* let bottom menu be full width */
