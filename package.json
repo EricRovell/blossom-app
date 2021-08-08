@@ -1,6 +1,6 @@
 {
 	"name": "blossom-web",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"description": "blossom project website",
 	"scripts": {
 		"lint": "eslint src/**/*.{ts,js,svelte}",
@@ -56,6 +56,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@ericrovell/blossom": "^1.5.0"
+		"@ericrovell/blossom": "^1.6.0"
 	}
 }

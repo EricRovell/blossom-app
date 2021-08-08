@@ -30,7 +30,7 @@
 	</section>
 	<Footer>
 		<section class="copyright">
-      © {new Date().getFullYear()} blossom/web, v0.1.0 | MIT Licence.
+      © {new Date().getFullYear()} blossom/web, v0.2.0 | MIT Licence.
     </section>
     <section class="social">
       <a href="https://github.com/EricRovell/blossom">
@@ -93,6 +93,13 @@
 
   .social > a:hover {
     color: var(--color-primary);
+  }
+
+  @media (max-width: 540px) {
+    .copyright,
+    .social {
+      justify-self: center;
+    }
   }
 
   /* let bottom menu be full width */
