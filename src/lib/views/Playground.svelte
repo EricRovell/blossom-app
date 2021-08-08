@@ -23,18 +23,18 @@
 		</p>
 	{:else if color.valid}
 		<div class="results" transition:fade|local>
-			<PaperGrid title="Properties">
-				{#each properties as { name, value }}
-					<li>
-						<span>{name}</span>
-						<output>{value}</output>
-					</li>
-				{/each}
-			</PaperGrid>
 			<PaperGrid title="Transformations">
 				{#each transformations as { model, value }}
 					<li>
 						<span>{String(model).toUpperCase()}</span>
+						<output>{value}</output>
+					</li>
+				{/each}
+			</PaperGrid>
+			<PaperGrid title="Properties">
+				{#each properties as { name, value }}
+					<li>
+						<span>{name}</span>
 						<output>{value}</output>
 					</li>
 				{/each}
@@ -50,7 +50,7 @@
 <style>
 	.results {
     display: grid;
-    grid-template: auto / 1fr 1.5fr;
+    grid-template: auto / 1.5fr 1fr;
     gap: 0.75em;
     width: 100%;
   }
@@ -66,4 +66,10 @@
     grid-row: 1;
     grid-column: 1;
   }
+
+	@media (max-width: 560px) {
+		.results {
+			grid-template: auto auto / 1fr;
+		}
+	}
 </style>
