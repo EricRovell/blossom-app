@@ -5,7 +5,7 @@ export function getColorProperties(color: Blossom): Properties {
 	return [
 		{
 			name: "Hue",
-			value: color.hue
+			value: `${color.hue}°`
 		},
 		{
 			name: "Saturation",
@@ -21,7 +21,7 @@ export function getColorProperties(color: Blossom): Properties {
 		},
 		{
 			name: "Luminance",
-			value: color.luminance
+			value: `${color.luminance * 100}%`
 		}
 	];
 }
