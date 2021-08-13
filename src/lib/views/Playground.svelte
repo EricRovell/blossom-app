@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import { fade } from "svelte/transition";
 	import { SearchField, PaperGrid } from "@components";
 	import { getColorProperties, getColorTransformations } from "@util";
