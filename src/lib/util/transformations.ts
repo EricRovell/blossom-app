@@ -22,6 +22,22 @@ export function getColorTransformations(color: Blossom): Transformations {
 		{
 			model: "cmyk",
 			value: color.toStringCMYK
-		}
+		},
+		{
+			model: "xyz",
+			value: color.toStringXYZ
+		},
+		{
+			model: "lab",
+			value: color.toStringLAB
+		},
+		{
+			model: "lch",
+			value: color.toStringLCH
+		},
+		{
+			model: "hwb",
+			value: color.toStringHWB
+		},
 	];
 }
