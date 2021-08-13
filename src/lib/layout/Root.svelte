@@ -30,7 +30,7 @@
 	</section>
 	<Footer>
 		<section class="copyright">
-      © {new Date().getFullYear()} blossom/web, v0.2.0 | MIT Licence.
+      © {new Date().getFullYear()} blossom/web, v0.3.0 | MIT Licence.
     </section>
     <section class="social">
       <a href="https://github.com/EricRovell/blossom">

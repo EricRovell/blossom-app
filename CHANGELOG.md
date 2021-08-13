@@ -1,4 +1,8 @@
-# Blossom/web Changelog:
+# blossom/web Changelog:
+
+## 0.3.0 (2021-08-13)
+
+- More available transformations: **CIE XYZ**, **CIE LAB**, **CIE LCH**, **HWB** color spaces;
 
 ## 0.2.0 (2021-08-08)
 
